@@ -48,7 +48,6 @@ public class CopyPropertiesTest {
 		assertEquals(pp0, pp1.getListPerson().get(0).getPeople());
 	}
 
-	
 	@Test
 	public void copiedObjectNoSameObject() {
 		Person p0 = Person.builder().
